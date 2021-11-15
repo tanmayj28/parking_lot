@@ -1,0 +1,21 @@
+Folder Structure:
+
+1. spec/
+- Spec folder contains all the test cases.
+
+2. src/
+  2.1 src/models
+  - Models here represent entities which are to be used for Parking Lot.
+  2.2 src/services
+  - Services contains all the functional side of Parking Lot.
+  2.3 src/helper
+  - Helpers can have any re-usable code which could be user across project.
+
+3. Gemfile / Gemfile.lock
+- List of all dependencies that we need to install.
+
+4. Makefile
+- Script to install all the dependencies after you have installed ruby version.
+
+5. main.rb
+- Start project by running / updating input params code in here.
