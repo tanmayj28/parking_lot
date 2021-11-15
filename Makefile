@@ -8,4 +8,4 @@ setup: install_bundler bundle_install
 install_bundler:
 	gem install bundler:2.2.31
 bundle_install:
-	bundle check || bundle install
+	bundle install
